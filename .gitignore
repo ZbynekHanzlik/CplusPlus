@@ -48,12 +48,7 @@
 *.metadata/
 *.settings/
 *.vscode/
-*.vs/
-*.git/
-*.sln
-*.vcxproj
-*.vcxproj.filters
-# User-specific files (MonoDevelop/Xamarin Studio)
+*.vs/s (MonoDevelop/Xamarin Studio)
 *.userprefs
 
 # Build results
@@ -68,7 +63,12 @@ bld/
 [Oo]bj/
 [Ll]og/
 
-# Visual Studio 2015 cache/options directory
+# Visual Studio 2015 
+*.git/
+*.sln
+*.vcxproj
+*.vcxproj.filters
+# User-specific filecache/options directory
 .vs/
 # Uncomment if you have tasks that create the project's static files in wwwroot
 #wwwroot/
