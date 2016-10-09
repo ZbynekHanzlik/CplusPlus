@@ -37,7 +37,22 @@
 *.user
 *.userosscache
 *.sln.docstates
-
+*.o
+*.exe
+*.xml
+*.sublime-project
+*.sublime-workspace
+*.cproject
+*.project
+*.core.prefs
+*.metadata/
+*.settings/
+*.vscode/
+*.vs/
+*.git/
+*.sln
+*.vcxproj
+*.vcxproj.filters
 # User-specific files (MonoDevelop/Xamarin Studio)
 *.userprefs
 
