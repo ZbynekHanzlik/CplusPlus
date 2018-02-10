@@ -29,7 +29,7 @@ int main()
 	    }
         if(word1 == word)
             {
-	cout << word << " is palyndrome" << endl;
+	   std::cout << word << " is palyndrome" << endl;
             }
         else
         {
