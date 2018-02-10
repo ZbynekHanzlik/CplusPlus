@@ -1,0 +1,5 @@
+cmake_minimum_required(VERSION 3.6)
+add_executable(C5_EX_09.cpp)
+
+install(TARGETS myapp DESTINATION _build)
+
