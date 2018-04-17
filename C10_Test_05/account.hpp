@@ -9,6 +9,7 @@ private:
 	float zustatek;
 
 public:
+	Account();
 	Account(const std::string s = "null", long an = -1, float bal = 0.0);
 	~Account();
 
