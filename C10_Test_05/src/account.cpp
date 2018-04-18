@@ -20,20 +20,24 @@ Account::~Account()
 
 void Account::ZobrazZustatek() const
 {
+
 }
 
 void Account::Vybrat(float amt)
 {
 	if (amt < 0)
 	{
-
+		std::cout << "nelze vybirat zapornou castku. Transakce ukoncena.\n";
 	}
 	else if (amt > zustatek)
 	{
-
+		std::cout << "Pozadovana castka je prislis vysoka. Transakce ukoincena.\n";
 	}
 	else
+	{
 		amt -= zustatek;
+		std::cout << "Vyber " << amt << " zustatek " << Zustatek() << std::endl;
+	}
 }
 
 void Account::Vlozit(float amt)
