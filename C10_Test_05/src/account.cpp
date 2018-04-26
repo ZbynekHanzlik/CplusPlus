@@ -35,7 +35,7 @@ void Account::Vybrat(float amt)
 	}
 	else
 	{
-		amt -= zustatek;
+		zustatek = zustatek - amt;
 		std::cout << "Vyber " << amt << " zustatek " << Zustatek() << std::endl;
 	}
 }
