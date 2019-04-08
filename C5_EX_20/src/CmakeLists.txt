@@ -1,1 +1,0 @@
-ADD_EXECUTABLE ( TEST C5_EX_20.cpp )
